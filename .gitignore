@@ -260,3 +260,7 @@ paket-files/
 
 # MFractors (Xamarin productivity tool) working folder
 .mfractor/
+
+# Generated code files for XAML resources
+XamarinCommunityToolkitSample/Resx/[Aa]ppResources.[Dd]esigner.cs
+XamarinCommunityToolkitSample/Resx/[Aa]ppResources.*.[Dd]esigner.cs
