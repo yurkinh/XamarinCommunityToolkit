@@ -14,6 +14,9 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Views
 			new SectionModel(typeof(BadgeViewPage), "BadgeView",
 				"View used to used to notify users notifications, or status of something"),
 
+			new SectionModel(typeof(DockLayoutPage), "DockLayout",
+				"Makes it easy to dock content in all four directions (top, bottom, left and right)"),
+
 			new SectionModel(typeof(GravatarImagePage), "GravatarImageSource",
 				"The GravatarImageSource allows you to easily utilize a users Gravatar image from Gravatar.com using nothing but their email address"),
 
