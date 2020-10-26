@@ -17,6 +17,9 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Views
 			new SectionModel(typeof(GravatarImagePage), "GravatarImageSource",
 				"The GravatarImageSource allows you to easily utilize a users Gravatar image from Gravatar.com using nothing but their email address"),
 
+			new SectionModel(typeof(HexLayoutPage), "HexLayout",
+				"A Layout that arranges the elements in a honeycomb pattern"),
+
 			new SectionModel(typeof(RangeSliderPage), "RangeSlider",
 				"The RangeSlider is a slider with two thumbs allowing to select numeric ranges"),
 
