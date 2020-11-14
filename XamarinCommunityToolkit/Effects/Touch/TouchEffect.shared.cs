@@ -33,7 +33,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			true,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.SetChildrenInputTransparent((bool)newValue);
+				GetFrom(bindable)?.SetChildrenInputTransparent((bool)newValue);
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -114,7 +114,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Color),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -125,7 +125,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Color),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -136,7 +136,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Color),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -147,7 +147,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -158,7 +158,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -169,7 +169,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -180,7 +180,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -191,7 +191,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -202,7 +202,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			1.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -213,7 +213,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -224,7 +224,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -235,7 +235,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -246,7 +246,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -257,7 +257,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -268,7 +268,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -279,7 +279,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -290,7 +290,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -301,7 +301,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -312,7 +312,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -323,7 +323,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -334,7 +334,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -345,7 +345,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -356,7 +356,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -367,7 +367,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			0.0,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -434,7 +434,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(int),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -446,7 +446,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			BindingMode.TwoWay,
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState(false);
+				GetFrom(bindable)?.ForceUpdateState(false);
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -492,7 +492,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(ImageSource),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -503,7 +503,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(ImageSource),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -514,7 +514,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(ImageSource),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -525,7 +525,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Aspect),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -536,7 +536,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Aspect),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -547,7 +547,7 @@ namespace Xamarin.CommunityToolkit.Effects
 			default(Aspect),
 			propertyChanged: (bindable, oldValue, newValue) =>
 			{
-				GetFirstFrom(bindable)?.ForceUpdateState();
+				GetFrom(bindable)?.ForceUpdateState();
 				TryGenerateEffect(bindable, oldValue, newValue);
 			});
 
@@ -565,13 +565,13 @@ namespace Xamarin.CommunityToolkit.Effects
 		public TouchEffect()
 			: base(EffectIds.TouchEffect)
 		{
-#if __ANDROID__
-			if (System.DateTime.Now.Ticks < 0)
-				_ = new Xamarin.CommunityToolkit.Android.Effects.PlatformTouchEffect();
-#elif __IOS__
-			if (System.DateTime.Now.Ticks < 0)
-				_ = new Xamarin.CommunityToolkit.iOS.Effects.PlatformTouchEffect();
-#endif
+//#if __ANDROID__
+//			if (System.DateTime.Now.Ticks < 0)
+//				_ = new Xamarin.CommunityToolkit.Android.Effects.PlatformTouchEffect();
+//#elif __IOS__
+//			if (System.DateTime.Now.Ticks < 0)
+//				_ = new Xamarin.CommunityToolkit.iOS.Effects.PlatformTouchEffect();
+//#endif
 		}
 
 		public static bool GetIsAvailable(BindableObject bindable)
@@ -1111,14 +1111,14 @@ namespace Xamarin.CommunityToolkit.Effects
 			}
 		}
 
-		internal static TouchEffect GetFirstFrom(BindableObject bindable)
+		internal static TouchEffect GetFrom(BindableObject bindable)
 		{
 			var effects = (bindable as VisualElement)?.Effects?.OfType<TouchEffect>();
 			return effects?.FirstOrDefault(x => !x.IsAutoGenerated)
 				?? effects?.FirstOrDefault();
 		}
 
-		internal static TouchEffect PickFirstFrom(BindableObject bindable)
+		internal static TouchEffect PickFrom(BindableObject bindable)
 		{
 			var effects = (bindable as VisualElement)?.Effects?.OfType<TouchEffect>();
 			return effects?.FirstOrDefault(x => !x.IsAutoGenerated && !x.IsUsed)
@@ -1214,7 +1214,7 @@ namespace Xamarin.CommunityToolkit.Effects
 				return;
 			}
 			view.InputTransparent = ShouldMakeChildrenInputTransparent &&
-				!(view.GetTouchEff()?.IsAvailable ?? false);
+				!(GetFrom(view)?.IsAvailable ?? false);
 		}
 	}
 }
