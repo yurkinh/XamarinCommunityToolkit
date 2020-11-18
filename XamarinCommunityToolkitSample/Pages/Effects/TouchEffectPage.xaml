@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:BasePage xmlns="http://xamarin.com/schemas/2014/forms"
+                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+                xmlns:pages="clr-namespace:Xamarin.CommunityToolkit.Sample.Pages"
+                x:Class="Xamarin.CommunityToolkit.Sample.Pages.Effects.TouchEffectPage"
+                x:Name="Page">
+    <ScrollView Padding="30, 20">
+        <StackLayout BackgroundColor="Gray">
+            <StackLayout HorizontalOptions="Fill" Padding="24" BackgroundColor="LightGray"
+                         xct:TouchEffect.NativeAnimation="False">
+                <StackLayout.Effects>
+                    <xct:TouchEffect Completed="OnCompleted"/>
+                </StackLayout.Effects>
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="No native animation"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Fill" Padding="24"
+                         BackgroundColor="LightGray"
+                         xct:TouchEffect.NativeAnimation="True"
+                         xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}">
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="Native animation"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Fill" Padding="24" BackgroundColor="LightGray"
+                         xct:TouchEffect.NativeAnimation="True"
+                         xct:TouchEffect.NativeAnimationShadowRadius="80"
+                         xct:TouchEffect.NativeAnimationColor="Red"
+                         xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}">
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="NativeAnimation=true"/>
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="NativeAnimationColor=Red"/>
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="NativeAnimationShadowRadius=80"/>
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Fill" Padding="24" BackgroundColor="LightGray"
+                         xct:TouchEffect.NativeAnimation="True"
+                         xct:TouchEffect.NativeAnimationRadius="50"
+                         xct:TouchEffect.NativeAnimationColor="White"
+                         xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}">
+
+                <Label TextColor="Black" HorizontalTextAlignment="Center" Text="NativeAnimation=true"/>
+                <Label TextColor="Black"  HorizontalTextAlignment="Center" Text="NativeAnimationRadius=50"/>
+                <Label TextColor="Black"  HorizontalTextAlignment="Center" Text="NativeAnimationColor=White"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Grid HeightRequest="64" HorizontalOptions="Fill">
+                    <Grid Grid.Column="0" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                    <Grid Grid.Column="1" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                    <Grid Grid.Column="2" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                    <Grid Grid.Column="3" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                    <Grid Grid.Column="4" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                    <Grid Grid.Column="5" BackgroundColor="LightGray" xct:TouchEffect.NativeAnimation="True" xct:TouchEffect.NativeAnimationRadius="32" xct:TouchEffect.Command="{Binding Command, Source={x:Reference Page}}" />
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</pages:BasePage>

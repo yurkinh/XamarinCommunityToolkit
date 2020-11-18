@@ -565,13 +565,13 @@ namespace Xamarin.CommunityToolkit.Effects
 		public TouchEffect()
 			: base(EffectIds.TouchEffect)
 		{
-//#if __ANDROID__
-//			if (System.DateTime.Now.Ticks < 0)
-//				_ = new Xamarin.CommunityToolkit.Android.Effects.PlatformTouchEffect();
-//#elif __IOS__
-//			if (System.DateTime.Now.Ticks < 0)
-//				_ = new Xamarin.CommunityToolkit.iOS.Effects.PlatformTouchEffect();
-//#endif
+#if __ANDROID__
+			if (System.DateTime.Now.Ticks < 0)
+				_ = new Xamarin.CommunityToolkit.Android.Effects.PlatformTouchEffect();
+#elif __IOS__
+			if (System.DateTime.Now.Ticks < 0)
+				_ = new Xamarin.CommunityToolkit.iOS.Effects.PlatformTouchEffect();
+#endif
 		}
 
 		public static bool GetIsAvailable(BindableObject bindable)
