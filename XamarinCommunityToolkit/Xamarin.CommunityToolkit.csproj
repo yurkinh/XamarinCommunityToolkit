@@ -22,9 +22,7 @@
     <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
     <RepositoryUrl>https://github.com/xamarin/XamarinCommunityToolkit</RepositoryUrl>
     <PackageReleaseNotes>
-      
       <!-- See if we can host these on MS docs? -->
-    
     </PackageReleaseNotes>
     <DefineConstants>$(DefineConstants);</DefineConstants>
     <UseFullSemVerForNuGet>false</UseFullSemVerForNuGet>
@@ -206,46 +204,5 @@
   <ItemGroup>
     <Compile Remove="build\*.cs" />
     <None Include="build\**\*.cs;build\**\*.targets" Pack="true" PackagePath="build" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Effects\Touch\TouchEffect.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\GestureManager.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\HoverStateChangedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\HoverStatusChangedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\TouchCompletedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\TouchInteractionStatusChangedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\TouchStateChangedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\EventArgs\TouchStatusChangedEventArgs.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\Enums\HoverState.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\Enums\HoverStatus.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\Enums\TouchInteractionStatus.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\Enums\TouchState.shared.cs">
-      <SubType></SubType>
-    </Compile>
-    <Compile Update="Effects\Touch\Enums\TouchStatus.shared.cs">
-      <SubType></SubType>
-    </Compile>
   </ItemGroup>
 </Project>
